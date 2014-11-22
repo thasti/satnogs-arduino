@@ -1,24 +1,24 @@
 #	Function	SatNOGS needed	optional	AtMega32U4	AtMega48
-D1	TX		-				PD3
-D0	RX		-				PD2
+D1	TX		-				PD3		PD1
+D0	RX		-				PD2		PD0
 GND	-		GND
 GND	-		GND
-D2	SDA				SDA (optional)	PD1
-D3	PWM/SCL				SCL (optional)	PD0
-D4	A6				SW1 (optional)	PD4
-D5	PWM				SW2 (optional)	PD5
-D6	PWM		DIR2				PC6
-D7	-		STEP2				PE6
-D8	A8		M_EN				PB4
-D9	PWM/A9		MODE1				PB5
-D10	PWM/A10		STEP1				PB6
-D16	MOSI				IO (optional)	PB2
-D14	MISO				IO (optional)	PB3
-D15	SCLK				IO (optional)	PB1
-D18	A0		DIR1				PF7
-D19	A1				IO (optional)	PF6
-D20	A2				IO (optional)	PF5
-D21	A3				IO (optional)	PF4
+D2	SDA				SDA (optional)	PD1		PD2
+D3	PWM/SCL				SCL (optional)	PD0		PD3
+D4	A6		Homing 1 (SW1)			PD4		PD4
+D5	PWM		Homing 2 (SW2)			PD5		PD5
+D6	PWM		DIR2				PC6		PD6
+D7	-		STEP2				PE6		PD7
+D8	A8		M_EN				PB4		PB0
+D9	PWM/A9		MODE1				PB5		PB1
+D10	PWM/A10		STEP1				PB6		PB2
+D16	MOSI				IO (optional)	PB2		-
+D14	MISO				IO (optional)	PB3		-
+D15	SCLK				IO (optional)	PB1		-
+D18	A0		DIR1				PF7		PC0 (A0, nicht D18)
+D19	A1				IO (optional)	PF6		PC1
+D20	A2				IO (optional)	PF5		PC2
+D21	A3				IO (optional)	PF4		PC3
 VCC	-		VCC
 RST	-		RST
 GND	-		GND
