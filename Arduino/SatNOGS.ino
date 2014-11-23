@@ -3,20 +3,20 @@
 #include <math.h>
 #include <AccelStepper.h>
 
-#define DIR_AZ 18 //PIN for Azimuth Direction
-#define STEP_AZ 10 //PIN for Azimuth Steps
+#define DIR_AZ 3 //PIN for Azimuth Direction
+#define STEP_AZ 2 //PIN for Azimuth Steps
 #define DIR_EL 6 //PIN for Elevation Direction
 #define STEP_EL 7 //PIN for Elevation Steps
 
-#define MS1 9 //PIN for step size
-#define EN 8 //PIN for Enable or Disable Stepper Motors
+#define MS1 5 //PIN for step size
+#define EN 4 //PIN for Enable or Disable Stepper Motors
 
 #define SPR 200 //Step Per Revolution
 #define RATIO 60 //Gear ratio
 #define T_DELAY 60000 //Time to disable the motors in millisecond
 
-#define HOME_AZ 4 //Homing switch for Azimuth
-#define HOME_EL 5 //Homing switch for Elevation
+#define HOME_AZ 9 //Homing switch for Azimuth
+#define HOME_EL 8 //Homing switch for Elevation
 /*The MAX_ANGLE depends of ANGLE_SCANNING_MULT and maybe misbehave for large values*/
 #define ANGLE_SCANNING_MULT 10 //Angle scanning multiplier
 #define MAX_AZ_ANGLE 200 //Maximum Angle of Azimuth for homing scanning
