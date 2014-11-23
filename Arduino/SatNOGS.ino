@@ -5,8 +5,8 @@
 
 #define DIR_AZ 3 //PIN for Azimuth Direction
 #define STEP_AZ 2 //PIN for Azimuth Steps
-#define DIR_EL 6 //PIN for Elevation Direction
-#define STEP_EL 7 //PIN for Elevation Steps
+#define DIR_EL 7 //PIN for Elevation Direction
+#define STEP_EL 6 //PIN for Elevation Steps
 
 #define MS1 5 //PIN for step size
 #define EN 4 //PIN for Enable or Disable Stepper Motors
